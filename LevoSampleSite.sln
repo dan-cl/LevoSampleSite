@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LevoSampleSite", "LevoSampleSite\LevoSampleSite.csproj", "{BC00CB4A-FB99-46DF-A311-73B7E8EC2DBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC00CB4A-FB99-46DF-A311-73B7E8EC2DBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC00CB4A-FB99-46DF-A311-73B7E8EC2DBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC00CB4A-FB99-46DF-A311-73B7E8EC2DBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC00CB4A-FB99-46DF-A311-73B7E8EC2DBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDFB6D7E-A76D-4480-B186-555B4BEB7689}
+	EndGlobalSection
+EndGlobal
