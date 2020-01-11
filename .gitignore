@@ -1,6 +1,6 @@
 /packages/
 !packages/repositories.config
 /.vs/
-/App_Data/
-/bin/
-/obj/
+/LevoSampleSite/App_Data/
+/LevoSampleSite/bin/
+/LevoSampleSite/obj/
