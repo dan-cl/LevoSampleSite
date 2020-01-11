@@ -7,8 +7,8 @@ namespace LevoSampleSite.Models.Blocks
 {
     public class BasicTextBlockViewModel
     {
-        public string BlockHeading;
-        public string BlockText;
+        public string BlockHeading { get; }
+        public string BlockText { get; }
 
         public BasicTextBlockViewModel(BasicTextBlockDataModel model)
         {

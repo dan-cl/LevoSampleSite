@@ -216,14 +216,19 @@
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ItemGroup>
+    <Compile Include="Business\Media\ImagesMedia.cs" />
     <Compile Include="Constants\TabNameConstants.cs" />
     <Compile Include="Controllers\BlockController\BasicTextBlockController.cs" />
+    <Compile Include="Controllers\BlockController\ImageBlockController.cs" />
     <Compile Include="Controllers\PageController\HomePageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\HtmlHelpers\ImageHelper.cs" />
     <Compile Include="Models\Blocks\BasicTextBlockDataModel.cs" />
     <Compile Include="Models\Blocks\BasicTextBlockViewModel.cs" />
+    <Compile Include="Models\Blocks\ImageBlockDataModel.cs" />
+    <Compile Include="Models\Blocks\ImageBlockViewModel.cs" />
     <Compile Include="Models\Pages\BasePageDataModel.cs" />
     <Compile Include="Models\Pages\BasePageViewModel.cs" />
     <Compile Include="Models\Pages\HomePageDataModel.cs" />
@@ -231,7 +236,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Business\" />
     <Folder Include="Models\Media\" />
     <Folder Include="Models\Pages\BasePage\" />
     <Folder Include="Models\Pages\HomePage\" />
@@ -255,6 +259,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\HomePage\HomePage.cshtml" />
     <Content Include="Views\BasicTextBlock\BasicTextBlock.cshtml" />
+    <Content Include="Views\ImageBlock\ImageBlock.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
