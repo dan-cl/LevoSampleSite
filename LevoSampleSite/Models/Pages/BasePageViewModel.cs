@@ -2,17 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using LevoSampleSite.Models.Pages;
 
 namespace LevoSampleSite.Models.Pages
 {
-    public class BasePageViewModel
+    public class BasePageViewModel<T> where T : BasePageDataModel
     {
         
-        public BasePageViewModel(BasePageDataModel currentPage)
+        public BasePageViewModel(T currentPage)
         {
             this.CurrentPage = currentPage;
         }
 
-        public BasePageDataModel CurrentPage { get;  }
+        public T CurrentPage { get;  }
     }
 }
