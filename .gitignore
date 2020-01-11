@@ -1,3 +1,6 @@
 /packages/
 !packages/repositories.config
 /.vs/
+/App_Data/
+/bin/
+/obj/
