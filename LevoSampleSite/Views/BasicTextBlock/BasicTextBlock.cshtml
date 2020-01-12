@@ -1,4 +1,11 @@
 ﻿@model LevoSampleSite.Models.Blocks.BasicTextBlockViewModel
 
-@Html.PropertyFor(x => x.BlockHeading)
-@Html.PropertyFor(x => x.BlockText)
+<div class=" center">
+        <h2 class="container">
+            @Html.PropertyFor(x => x.BlockHeading)
+        </h2>
+        <div>
+            @Html.PropertyFor(x => x.BlockText)
+        </div>
+    
+</div>

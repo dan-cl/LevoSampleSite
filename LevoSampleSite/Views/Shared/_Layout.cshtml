@@ -7,8 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="@Model.CurrentPage.PageDescription">
     <title>@Model.CurrentPage.PageTitle</title>
+    <link rel="stylesheet" type="text/css" href="../../Assets/Styles/styles.css">
 </head>
 <body>
+<h1>Time stamp from cached page @DateTime.Now </h1>
+<h1 id="timeStamp"></h1>
 @RenderBody()
+
+<script src="../../Assets/Scripts/main.js"></script>
 </body>
 </html>

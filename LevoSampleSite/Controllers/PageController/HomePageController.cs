@@ -4,6 +4,7 @@ using System.Web.Mvc;
 
 namespace LevoSampleSite.Controllers.PageController
 {
+    [ContentOutputCache]
     public class HomePageController : PageController<HomePageDataModel>
     {
         public ActionResult Index(HomePageDataModel currentPage)
