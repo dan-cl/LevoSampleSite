@@ -4,3 +4,5 @@
 /LevoSampleSite/App_Data/
 /LevoSampleSite/bin/
 /LevoSampleSite/obj/
+/LevoSampleSite/Configs/
+/LevoSampleSite/ConnectionStrings/
